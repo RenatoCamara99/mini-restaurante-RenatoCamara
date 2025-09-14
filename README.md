@@ -1,2 +1,2 @@
 # mini-restaurante-RenatoCamara
-Site de estudo, feito para testar habilidades.
+Site para estudo, feito para testar habilidades.
