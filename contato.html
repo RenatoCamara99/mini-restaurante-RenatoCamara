@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <style>
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contacts h2 {
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .contacts ul {
+            text-align: left;
+            padding-left: 0;
+        }
+
+        .mapa {
+            display: block;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .pedido {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 500px;
+            margin: auto;
+            border: 3px solid rgb(78, 0, 0);
+            border-radius: 10px;
+            background-color: rgb(78, 0, 0);
+        }
+
+        .pedido h2 {
+            font-size: 28px;
+            color: white;
+        }
+
+        .pedido ol {
+            list-style-position: inside;
+            padding: 0;
+            margin: 0;
+        }
+
+        .pedido li {
+            text-align: center;
+            width: 35ch;
+            margin-bottom: 15px;
+            color: rgb(78, 0, 0);
+            border: 3px solid white;
+            border-radius: 50px;
+            background-color: white;
+            font-size: 18px;
+            padding: 10px 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/img/renatos_logo.png" alt="logo do Renato's Restaurante">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./cardapio.html">cardápio</a>
+            <a href="./contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 style="display: flex; align-items: center; justify-content: center;">  <!--CSS INLINE-->
+            <strong>Horario de funcionamento</strong>
+        </h1>
+
+        <p style="display: flex; align-items: center; justify-content: center; align-items: center;"> <!--CSS INLINE-->
+            Segunda a Quinta: 11:30 às 22:00 <br>
+            Sexta a Sábado: 11:30 às 23:00 <br>
+            Domingo e Feriados: 12:00 às 22:00 <br>
+        </p>
+
+        <div class="contacts">
+            <h2>Contatos</h2>
+            <ul>
+                <li>Telefone: (81) 99999-9999</li>
+                <li>Email: renatos@restaurante.com</li>
+                <li>Endereço: Avenida do Sabor, 1020, Recife - PE</li>
+            </ul>
+        </div>
+
+        <iframe class="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.553803082179!2d-34.90367922407964!3d-8.04485109198233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18fca7447ad7%3A0xee60c04c4d13e0dc!2sR.%20Am%C3%A9lia%2C%20638%20-%20Gra%C3%A7as%2C%20Recife%20-%20PE%2C%2052011-050!5e0!3m2!1spt-BR!2sbr!4v1757801881520!5m2!1spt-BR!2sbr"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </main>
+
+    <div class="pedido">
+        <h2>Faça seu pedido</h2>
+        <ol>
+            <li>Escolha o que comer pelo site.</li>
+            <li>Ligue por telefone para efetuar o pedido</li>
+            <li>O entregador recebera por dinheiro ou pela maquineta</li>
+            <li>Bon Apetit!</li>
+        </ol>
+    </div>
+
+    <footer>
+        <p style="color: white; text-align: center; margin: 0 0 20px 0;">
+            © 2025 Renato's Restaurante. Todos os direitos reservados.
+        </p>
+
+        <div class="footer-links">
+            <a href="#">Politica de privacidade</a>
+            <a href="#">Termos de uso</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
